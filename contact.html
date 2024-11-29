@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="about.html">Om mig</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <h1>Kontakt</h1>
+    </header>
+    <main class="contact">
+      <section>
+        <h2>Kontakta mig här:</h2>
+        <form action="mailto:din.email@example.com" method="post">
+          <label for="name">Namn:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Ditt namn"
+          />
+          <label for="email">E-post:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Din e-post"
+          />
+          <label for="message">Meddelande:</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Skriv ditt meddelande här"
+          ></textarea>
+          <button type="submit">Skicka</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© iida hellström, 2024</p>
+    </footer>
+  </body>
+</html>
